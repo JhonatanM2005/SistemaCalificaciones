@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaCalificaciones
+namespace SistemaCalificaciones.View
 {
-    public partial class Form1 : Form
+    public partial class frmLogin : Form
     {
-        public Form1()
+        public frmLogin()
         {
             InitializeComponent();
+        }
+
+        private void b_ingresar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
